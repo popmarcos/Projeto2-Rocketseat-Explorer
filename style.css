@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: #1F1534;
-
+  font-weight: normal;
+  
   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
 
   min-height: 100vh;
@@ -10,7 +11,7 @@ body {
 }
 
 .page {
-  width: 1000px;
+  width: 1009px;
   margin: 0 auto 0;
   padding-top: 65px;
 
@@ -85,6 +86,8 @@ section p {
 }
 
 button {
+  width: 182px;
+  height: 56px;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   color: #F9F9F9;
